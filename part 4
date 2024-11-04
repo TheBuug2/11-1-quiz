@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+
+void halloween();
+
+int main() {
+
+	halloween();
+
+
+
+}
+
+
+void halloween() {
+	int answer;
+	cout << "how was your halloween" << endl;
+	cin >> answer;
+
+	if (answer < 5)
+		cout << "sorry it wasn't good." << endl;
+	else if (answer >= 5)
+		cout << "i'm glad it was good" << endl;
+
+
+}
