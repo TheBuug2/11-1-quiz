@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+void scary();
+
+int main() {
+
+	scary();
+
+}
+
+void scary() {
+	char input = 'x';
+	while (input != 'q') {
+		cout << "BOO!" << endl;
+		cout << "press any key to contine, q to to quit" << endl;
+		cin >> input;
+
+
+	}
+}
